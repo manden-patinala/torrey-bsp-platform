@@ -6,7 +6,8 @@
   <remote fetch="https://git.yoctoproject.org/git"     name="yocto"/>
   <remote fetch="https://github.com/Freescale"         name="freescale"/>
   <remote fetch="https://git.openembedded.org"         name="oe"/>
-  <remote fetch="https://github.com/meta-qt5"          name="QT5"/>
+  <!--<remote fetch="https://github.com/meta-qt5"          name="QT5"/>-->
+  <remote fetch="https://code.qt.io/cgit/yocto/meta-qt6.git/"          name="QT6"/>
   <remote fetch="https://github.com/sbabic"            name="sbabic"/>
   <remote fetch="https://github.com/varigit"           name="variscite"/>
   <remote fetch="https://github.com/manden-patinala"   name="torrey"/>
@@ -27,7 +28,9 @@
   <project remote="freescale" revision="5d882cdf079b3bde0bd9869ce3ca3db411acbf3b" upstream="dunfell"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="4558857539fd5395e9657500f84017e2722ba433" upstream="dunfell"   name="Documentation"           path="sources/Documentation"/>
 
-  <project remote="QT5"       revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/>
+  <!-- <project remote="QT5"       revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"   name="meta-qt5"                path="sources/meta-qt5"/> -->
+  <project remote="QT6"       revision="	c1dd8454caf8a5e23a0f8ee983af78c14aa85653" upstream="dunfell"   name="meta-qt6"                path="sources/meta-qt6"/>
+  
   <project remote="sbabic"    revision="72b493c7ed9f5e1fb4ae1ce180f913acc29748c5" upstream="dunfell"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="yocto"     revision="758868633be479f38d19c3602be0094289fc1a75" upstream="dunfell"   name="meta-virtualization"     path="sources/meta-virtualization"/>
   <project remote="torrey" revision="1a49b78158861075ee26483e3956272604330ce1" upstream="wls"   name="torrey-meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
